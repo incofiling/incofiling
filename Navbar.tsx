@@ -35,11 +35,10 @@ export default function Navbar() {
           {/* Right side actions */}
           <div className="flex items-center gap-x-5 sm:gap-x-6">
             <a
-              href="tel:+17865749305"
+              href="tel:+923092935757"
               className="hidden md:block whitespace-nowrap text-white"
             >
-              +1 (786) 574-9305
-            </a>
+(+92) 309 293 5757            </a>
 
            <a
   href={`https://wa.me/923092935757?text=${encodeURIComponent("Hello!")}`}
@@ -107,12 +106,11 @@ export default function Navbar() {
               ))}
 
               <a
-                href="tel:+17865749305"
+              href="tel:+923092935757"
                 className="block px-3 py-2 text-white/90 hover:bg-white/10"
                 onClick={() => setIsMenuOpen(false)}
               >
-                +1 (786) 574-9305
-              </a>
+(+92) 309 293 5757              </a>
 
               <a
   href={`https://wa.me/923092935757?text=${encodeURIComponent("Hello!")}`}
