@@ -5,6 +5,7 @@ import Image from "next/image"
 export default function HeroSection() {
   return (
     <div className="relative min-h-screen bg-gradient-to-r from-[#310971] to-[#690fff] mt-16 flex items-center overflow-hidden">
+      {/* Background Texture */}
       <div className="absolute inset-0 pointer-events-none">
         <Image
           src="/images/hero-texture.png"
@@ -21,50 +22,50 @@ export default function HeroSection() {
 
       <main className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
         {/* Trustpilot Rating */}
-        <div className="flex justify-center pt-6 pb-4">
-          <div className="flex items-center gap-2 bg-gray-50 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border mt-8 sm:mt-16">
-            <span className="text-sm font-medium text-gray-900">Excellent</span>
-            <span className="text-sm font-bold text-gray-900">4.7</span>
-            <span className="text-sm text-gray-600">out of 5</span>
+        <div className="flex justify-center pt-6 sm:pt-10">
+          <div className="flex flex-wrap sm:flex-nowrap items-center gap-2 bg-gray-50 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full border mt-8 sm:mt-12">
+            <span className="text-xs sm:text-sm font-medium text-gray-900">Excellent</span>
+            <span className="text-xs sm:text-sm font-bold text-gray-900">4.7</span>
+            <span className="text-xs sm:text-sm text-gray-600">out of 5</span>
             <Star className="w-4 h-4 fill-green-500 text-green-500" />
-            <span className="text-sm font-medium text-gray-900">Trustpilot</span>
+            <span className="text-xs sm:text-sm font-medium text-gray-900">Trustpilot</span>
           </div>
         </div>
 
         {/* Heading + Subtitle */}
-        <div className="text-center py-10 sm:py-16">
-          <h1 className="text-6xl md:text-6xl font-bold text-white mb-6 sm:mb-8 leading-tight tracking-tight break-words">
+        <div className="text-center py-10 sm:py-16 px-2 sm:px-0">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-white mb-6 sm:mb-8 leading-tight tracking-tight break-words">
             Start Your U.S Business 🚀 <br className="hidden sm:block" />
             Fast & Fully Online
           </h1>
 
-          <p className="text-lg md:text-xl text-white mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-base sm:text-lg md:text-xl text-white mb-8 sm:mb-12 max-w-3xl mx-auto leading-relaxed">
             Form your LLC, get your EIN, open a business bank account & stay compliant – all in one simple package.
             Starting at $249 + state fees.
           </p>
 
           {/* CTA Button */}
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center">
             <button
               onClick={() => {
-  const phoneNumber = "923092935757"; // Pakistan country code +92
-  const message = encodeURIComponent("Hello!"); // optional default message
-  window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank");
-}}
-
-              className="flex items-center justify-center gap-2 text-base md:text-lg 
-                         text-[#5f00ff] bg-white rounded-full px-6 py-3 font-medium shadow-md hover:shadow-lg transition"
+                const phoneNumber = "923092935757"
+                const message = encodeURIComponent("Hello!")
+                window.open(`https://wa.me/${phoneNumber}?text=${message}`, "_blank")
+              }}
+              className="flex items-center justify-center gap-2 text-sm sm:text-base md:text-lg 
+                         text-[#5f00ff] bg-white rounded-full px-5 sm:px-6 py-2 sm:py-3 font-medium 
+                         shadow-md hover:shadow-lg transition"
             >
               <span>Start Your Business</span>
-              <ArrowRight className="w-5 h-5" />
+              <ArrowRight className="w-4 sm:w-5 h-4 sm:h-5" />
             </button>
           </div>
         </div>
 
         {/* Video Section */}
-        <div className="pb-10 sm:pb-16">
+        <div className="pb-10 sm:pb-16 px-2 sm:px-0">
           <div className="max-w-6xl mx-auto">
-            <div className="flex justify-center px-2">
+            <div className="flex justify-center">
               <div className="w-full max-w-[900px] aspect-video">
                 <iframe
                   className="w-full h-full rounded-lg sm:rounded-xl"

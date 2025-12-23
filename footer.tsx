@@ -68,7 +68,7 @@ export default function Footer() {
             <img
   src="/images/Logo.svg"
   alt="logo"
-  className="shrink-0 max-w-full w-[240px] 2xs:w-auto ml-[-30px] sm:ml-[-40px]"
+  className="shrink-0 max-w-full w-[240px] 2xs:w-auto ml-[-25px] sm:ml-[-50px]"
 />
 
               </div>
