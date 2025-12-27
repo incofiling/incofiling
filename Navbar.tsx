@@ -7,7 +7,7 @@ export default function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="absolute inset-x-0 top-0 z-50 bg-gradient-to-r from-[#310971] to-[#690fff]">
+    <header className="absolute inset-x-0 top-0 z-50 bg-gradient-to-r from-[#240645] to-[#561d82]">
       <div className="mx-auto w-[95%] max-w-[1440px] py-5">
         <div className="flex items-center justify-between font-medium gap-5">
           {/* Logo */}
@@ -74,7 +74,7 @@ export default function Navbar() {
           />
 
           {/* Sidebar */}
-          <div className="absolute right-0 top-0 h-full w-72 max-w-full bg-gradient-to-b from-[#310971] to-[#690fff] shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0">
+          <div className="absolute right-0 top-0 h-full w-72 max-w-full bg-gradient-to-r from-[#240645] to-[#561d82] shadow-xl transform transition-transform duration-300 ease-in-out translate-x-0">
             <div className="flex justify-between items-center p-5 border-b border-white/20">
   {/* Logo */}
           <a href="/">

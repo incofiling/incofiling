@@ -2,7 +2,7 @@ import { Star } from "lucide-react"
 
 export default function PricingSection() {
   return (
-    <div className="w-full bg-[#320e6f] py-16 px-4">
+    <div className="w-full bg-[#240645] py-16 px-4">
       <div className="max-w-6xl mx-auto">
         {/* Header */}
         <h2 className="text-white text-4xl md:text-5xl font-bold text-center mb-4">One price, No Surprises</h2>
@@ -12,7 +12,7 @@ export default function PricingSection() {
         </p>
 
         {/* Pricing Content */}
-        <div className="bg-[#3d1a80] rounded-3xl p-8 md:p-12 flex flex-col md:flex-row gap-8">
+        <div className="bg-[#561d82] rounded-3xl p-8 md:p-12 flex flex-col md:flex-row gap-8">
           {/* Left Column */}
           <div className="md:w-1/2">
             <h3 className="text-white text-3xl md:text-4xl font-bold mb-4">Inco Filing All-Inclusive Pricing</h3>

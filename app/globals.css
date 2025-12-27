@@ -29,7 +29,7 @@ body {
 
 /* Add a utility class for gradient backgrounds */
 .gradient-purple {
-  background: linear-gradient(to right, #310971, #690fff);
+  background: linear-gradient(to right, #240645, #561d82);
 }
 
 @layer utilities {

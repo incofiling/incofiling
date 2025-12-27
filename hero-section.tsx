@@ -4,7 +4,7 @@ import Image from "next/image"
 
 export default function HeroSection() {
   return (
-    <div className="relative min-h-screen bg-gradient-to-r from-[#310971] to-[#690fff] mt-16 flex items-center overflow-hidden">
+    <div className="relative min-h-screen bg-gradient-to-r from-[#240645] to-[#561d82] mt-16 flex items-center overflow-hidden">
       {/* Background Texture */}
       <div className="absolute inset-0 pointer-events-none">
         <Image

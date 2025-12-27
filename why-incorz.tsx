@@ -22,7 +22,7 @@ export default function WhyIncoFiling() {
 
           <div className="md:w-1/2">
 
-            <h2 className="text-[#4e4747] text-4xl md:text-5xl font-bold mb-6">
+            <h2 className="text-[#240645] text-4xl md:text-5xl font-bold mb-6">
 
               Why Inco Filing?
 
@@ -58,9 +58,9 @@ export default function WhyIncoFiling() {
 
               <li className="flex items-center gap-4">
 
-                <Award className="text-[#6200ff] h-6 w-6 shrink-0" />
+                <Award className="text-[#240645] h-6 w-6 shrink-0" />
 
-                <span className="text-[#4e4747] text-lg">
+                <span className="text-[#240645] text-lg">
 
                   Proven Expertise
 
@@ -72,9 +72,9 @@ export default function WhyIncoFiling() {
 
               <li className="flex items-center gap-4">
 
-                <DollarSign className="text-[#6200ff] h-6 w-6 shrink-0" />
+                <DollarSign className="text-[#240645] h-6 w-6 shrink-0" />
 
-                <span className="text-[#4e4747] text-lg">
+                <span className="text-[#240645] text-lg">
 
                   Best Value
 
@@ -86,9 +86,9 @@ export default function WhyIncoFiling() {
 
               <li className="flex items-center gap-4">
 
-                <Zap className="text-[#6200ff] h-6 w-6 shrink-0" />
+                <Zap className="text-[#240645] h-6 w-6 shrink-0" />
 
-                <span className="text-[#4e4747] text-lg">
+                <span className="text-[#240645] text-lg">
 
                   Lightning Speed
 
@@ -110,7 +110,6 @@ export default function WhyIncoFiling() {
 
               {/* Purple Background */}
 
-              <div className="absolute top-4 right-4 w-[92%] h-[92%] bg-[#6200ff] rounded-3xl z-0"></div>
 
 
 

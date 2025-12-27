@@ -11,6 +11,7 @@ import WhyIncoFiling from "@/why-incorz"
 import AnimatedSection from "@/components/animated-section"
 import ScrollToTop from "@/components/scroll-to-top"
 import TrustedWorldwideSection from "@/trusted-worldwide-section"
+import { FaqSection } from "@/faq"
 
 export default function Home() {
   return (
@@ -39,6 +40,13 @@ export default function Home() {
 
       <AnimatedSection animation="fade-up" delay={200}>
         <TrustedWorldwideSection />
+      </AnimatedSection>
+
+      
+  
+
+      <AnimatedSection animation="fade-up" delay={200}>
+        <FaqSection />
       </AnimatedSection>
 
  

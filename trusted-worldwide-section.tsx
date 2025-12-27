@@ -105,7 +105,7 @@ Real success stories from small business owners to enterprises! You can find our
         {/* Testimonials Grid - Responsive Layout */}
         <div className="relative z-10 flex flex-col lg:flex-row gap-6 sm:gap-8 justify-center items-center lg:items-stretch">
           {/* Left Purple Box - Responsive */}
-          <div className="bg-gradient-to-b from-[#320E6F] to-[#6843A7] rounded-2xl flex flex-col justify-between overflow-hidden shadow-lg w-full max-w-[386px] lg:max-w-none lg:w-[386px] h-auto sm:h-[400px] lg:h-[467px]">
+          <div className="bg-gradient-to-b from-[#240645] to-[#561d82] rounded-2xl flex flex-col justify-between overflow-hidden shadow-lg w-full max-w-[386px] lg:max-w-none lg:w-[386px] h-auto sm:h-[400px] lg:h-[467px]">
             <div className="p-6 sm:p-8 flex-grow flex items-center">
               <p className="text-white text-base sm:text-lg">
                Inco Filing made setting up my IT consultancy seamless. Their expertise saved me weeks of confusion and paperwork.
